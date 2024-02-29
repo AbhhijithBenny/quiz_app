@@ -15,7 +15,7 @@ class _SplashscreenState extends State<Splashscreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(Duration(seconds: 3), () { Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()));
+    Timer(Duration(seconds: 3), () { Navigator.push(context, MaterialPageRoute(builder: (context)=>Question()));
     });
   }
   @override
@@ -44,7 +44,7 @@ class _SplashscreenState extends State<Splashscreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.network(
-                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWSn3WF7L-8B3D3khyH1Rs8UYq32hbGh32rQ&usqp=CAU'),
+                    'https://th.bing.com/th/id/OIP.FBRsnCP9wE84UVW1Kkv5YwHaHa?w=198&h=198&c=7&r=0&o=5&pid=1.7'),
                /* TextField(
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
